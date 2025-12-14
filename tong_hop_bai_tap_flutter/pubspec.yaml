@@ -34,6 +34,78 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  
+  bai_tap_thuc_hanh_1:
+    git:
+      url: https://github.com/bty102/flutter-projects.git
+      path: bai_tap_thuc_hanh_1
+      ref: master
+      
+  bai_tap_thuc_hanh_2:
+    git:
+      url: https://github.com/bty102/flutter-projects.git
+      path: bai_tap_thuc_hanh_2
+      ref: master
+      
+  dach_sach_dia_diem_don_gian:
+    git:
+      url: https://github.com/bty102/flutter-projects.git
+      path: dach_sach_dia_diem_don_gian
+      ref: master
+  
+  danh_sach_dia_diem_phuc_tap:
+    git:
+      url: https://github.com/bty102/flutter-projects.git
+      path: danh_sach_dia_diem_phuc_tap
+      ref: master
+
+  stf_bai_thuc_hanh_1:
+    git:
+      url: https://github.com/bty102/flutter-projects.git
+      path: stf_bai_thuc_hanh_1
+      ref: master
+
+  change_color_app:
+    git:
+      url: https://github.com/bty102/flutter-projects.git
+      path: change_color_app
+      ref: master
+
+  countdown_timer:
+    git:
+      url: https://github.com/bty102/flutter-projects.git
+      path: countdown_timer
+      ref: master
+
+  login_form:
+    git:
+      url: https://github.com/bty102/flutter-projects.git
+      path: login_form
+      ref: master
+
+  form_dang_ky:
+    git:
+      url: https://github.com/bty102/flutter-projects.git
+      path: form_dang_ky
+      ref: master
+
+  news_app:
+    git:
+      url: https://github.com/bty102/flutter-projects.git
+      path: news_app
+      ref: master
+
+  danh_sach_san_pham_webapi:
+    git:
+      url: https://github.com/bty102/flutter-projects.git
+      path: danh_sach_san_pham_webapi
+      ref: master
+
+  auth_app:
+    git:
+      url: https://github.com/bty102/flutter-projects.git
+      path: auth_app
+      ref: master
 
 dev_dependencies:
   flutter_test:
