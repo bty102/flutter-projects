@@ -38,7 +38,7 @@ Widget buildPlace(String img) {
   return Container(
     decoration: BoxDecoration(
       borderRadius: BorderRadius.all(Radius.circular(5)),
-      image: DecorationImage(image: AssetImage(img), fit: BoxFit.fill),
+      image: DecorationImage(image: NetworkImage(img), fit: BoxFit.fill),
     ),
   );
 }
@@ -108,10 +108,18 @@ Widget block4() {
         // Container(
         //   child: Image.asset("images/ho_khe_ngang.jpg", fit: BoxFit.fill),
         // ),
-        buildPlace("images/cau_trang_tien.jpg"),
-        buildPlace("images/chua_thien_mu.jpg"),
-        buildPlace("images/doi_vong_canh.jpg"),
-        buildPlace("images/ho_khe_ngang.jpg"),
+        buildPlace(
+          "https://upload.wikimedia.org/wikipedia/commons/0/0e/Hue%2C_le_pont_Trang_Tien.jpg",
+        ),
+        buildPlace(
+          "https://upload.wikimedia.org/wikipedia/commons/d/dc/Ch%C3%B9a_Thi%C3%AAn_M%E1%BB%A5_%E1%BB%9F_Hu%E1%BA%BF.jpg",
+        ),
+        buildPlace(
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Tomb_of_Emperor_T%E1%BB%B1_%C4%90%E1%BB%A9c_1.jpg/330px-Tomb_of_Emperor_T%E1%BB%B1_%C4%90%E1%BB%A9c_1.jpg",
+        ),
+        buildPlace(
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Ho_Thuy_Tien_water_park_entrance.jpg/500px-Ho_Thuy_Tien_water_park_entrance.jpg",
+        ),
       ],
     ),
   );
